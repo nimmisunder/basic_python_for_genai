@@ -18,7 +18,7 @@
 # The value itself
 # Whether it's truthy or falsy
 # A brief explanation
-# Format your output in a table-like structure using f-strings.
+# Format your output in a table-like structure using f-strings.added
 
 
 values = [(0,"zero"),(1,"true"),("" ,"empty string"),("hello","string"),([],"empty list"),([1, 2, 3],"list"),(None,"no value"),
