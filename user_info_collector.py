@@ -1,3 +1,13 @@
+from colorama import Fore, Back, Style, init
+
+init(autoreset=True)
+
+print(Fore.CYAN + "Welcome to User Info Collector!")
+print(Fore.YELLOW + "Please provide the following information!")
+
+print(Fore.GREEN + "Success!")
+print(Fore.RED + "Invalid input!")
+print(Fore.BLUE + "User Information Summary")
 print(f"Welcome to User Info Collector!")
 
 print(f"Please provide the following information:!")
@@ -19,6 +29,11 @@ while True:
  else:
   print("Enter a valid email")
 Phone = input("Phone :")
+while True:
+ if len(Phone)==10 and Phone.isdigit:
+  break
+ else:
+  print("Not a valid number")
 City= input("City :")
 Languagesnown = int(input("Number of programming languages you know :"))
 Favoritel=input("favorite programming language :")
